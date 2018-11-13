@@ -5,7 +5,6 @@ import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -30,9 +29,12 @@ public class Mercy
     String words[] = null;
 
     // Linked lists to hold the letters
-    ArrayList  value = null;
-    ArrayList  listXY = null;
-    ArrayList  selectedButtons = null;
+    @SuppressWarnings("rawtypes")
+	ArrayList  value = null;
+    @SuppressWarnings("rawtypes")
+	ArrayList  listXY = null;
+    @SuppressWarnings("rawtypes")
+	ArrayList  selectedButtons = null;
 
     String formedWord = "";
     int wordsFound = 0;
@@ -43,7 +45,8 @@ public class Mercy
     private JButton clearSelection = null;
         private JButton exit=null;
 
-    public Mercy(int width, int length, String words[])
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	public Mercy(int width, int length, String words[])
     {    
         this.words = words;
         //frame.setLayout(new GridLayout(width,length)); //set layout
@@ -98,6 +101,11 @@ public class Mercy
             clearSelectedButtons();
             JOptionPane.showMessageDialog(null, "Selected letters cleared");
             });
+        exit.addActionListener((ActionEvent e) ->{
+        	JOptionPane.showMessageDialog(null, "You Tried :).");
+        	checkIfGameOver();
+        	System.exit(0);
+        });
         bottomPanel.add(checkWord);
         bottomPanel.add(clearSelection);
         bottomPanel.add(exit);
@@ -116,7 +124,6 @@ public class Mercy
         {
             placeWord(words[i]);
         }
-
         populateWithRandom();
     }
 
@@ -139,13 +146,14 @@ public class Mercy
 
     public void checkIfGameOver()
     {
-        if(wordsFound == words.length)
+        if(wordsFound != words.length)
         {
             JOptionPane.showMessageDialog(null, "GAME OVER");
         }
     }
 
-    public void clearSelectedButtons()
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	public void clearSelectedButtons()
     {
         selectedButtons.stream().map((_item) -> {
             //selectedButtons.remove(i);
@@ -338,7 +346,8 @@ public class Mercy
         return matching;
     }
 
-    public void insertWord(String word, int direction, int startX, int startY)
+    @SuppressWarnings("unchecked")
+	public void insertWord(String word, int direction, int startX, int startY)
     {    
         System.out.println("Direction: "+direction+" - StartX: "+startX+" - StartY: "+startY); 
 
@@ -438,7 +447,7 @@ public class Mercy
         String words[] = null;
 
         String line = "";
-        File Myf = new File("C:\\CrossWord.txt");
+        File Myf = new File("/home/maniaki/Bureau/CrossWord.txt");
 
         BufferedReader Myin;
         try
