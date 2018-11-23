@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adress.model.ModelPendu">
+   <children>
+      <Text fontSmoothingType="LCD" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le Pendu" textAlignment="CENTER" wrappingWidth="600.0">
+         <font>
+            <Font name="Impact" size="39.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombres d'essais restant :">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score :">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="351.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="386.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="421.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="316.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="281.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="248.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="178.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="108.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="39.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="73.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="213.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="143.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="491.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="526.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle fx:id="rectangle10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="456.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Text fx:id="text4" layoutX="364.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text6" layoutX="400.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text8" layoutX="435.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text2" layoutX="330.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text1" layoutX="295.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text3" layoutX="262.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text11" layoutX="122.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text7" layoutX="192.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text9" layoutX="157.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text13" layoutX="87.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text15" layoutX="54.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text5" layoutX="227.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text12" layoutX="506.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text10" layoutX="470.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="text14" layoutX="541.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Text fx:id="textBienjoue" fill="#44c922" layoutX="153.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous avez trouvé une lettre :)" wrappingWidth="325.3154296875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="boutonAbandon" layoutX="247.0" layoutY="656.0" mnemonicParsing="false" text="Revenir en Arriere" />
+      <TextField fx:id="champLettre" layoutX="326.0" layoutY="520.0" prefHeight="31.0" prefWidth="36.0" />
+      <Text fx:id="entrezLettre" layoutX="161.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrez une lettre :">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="boutonValide" layoutX="397.0" layoutY="520.0" mnemonicParsing="false" text="Validé" />
+      <Text fx:id="textNbEssais" layoutX="312.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="textScore" layoutX="143.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="textfaux" fill="#c92813" layoutX="154.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La lettre n'est pas correct" wrappingWidth="325.3154296875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="textTrouveMot" fill="#2eb547" layoutX="108.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bravo vous avez trouvé le mot ! :)">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="textPerdu" fill="RED" layoutX="185.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous avez perdu :(">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="textSolution" fill="#11dada" layoutX="221.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le Mot etais : ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
